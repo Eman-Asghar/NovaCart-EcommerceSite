@@ -1,0 +1,80 @@
+﻿@model List<YourProject.Models.CartItem>
+
+<section class="cart-page">
+
+    <div class="container">
+
+        <h1 class="mb-5">Shopping Cart</h1>
+
+        @if (Model.Count == 0)
+        {
+            <h4>Your cart is empty.</h4>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <div class="cart-item">
+
+                    <img src="@item.Image" />
+
+                    <div class="cart-info">
+
+                        <h3>@item.Name</h3>
+
+                        @if (!string.IsNullOrEmpty(item.Size))
+                        {
+                            <p class="mb-1">
+                                Size:
+                                <strong>@item.Size</strong>
+                            </p>
+                        }
+
+                        <h5>PKR @item.Price</h5>
+
+                        <div class="cart-actions">
+
+                            <a asp-action="Decrease"
+                               asp-route-name="@item.Name"
+                               class="qty-btn">-</a>
+
+                            <span>@item.Quantity</span>
+
+                            <a asp-action="Increase"
+                               asp-route-name="@item.Name"
+                               class="qty-btn">+</a>
+
+                        </div>
+
+                    </div>
+
+                    <a asp-action="Remove"
+                       asp-route-name="@item.Name"
+                       class="remove-btn">
+
+                        Remove
+
+                    </a>
+
+                </div>
+            }
+        }
+
+    </div>
+    @if (Model.Count > 0)
+    {
+        <div class="checkout-btn-wrapper">
+
+            <a asp-controller="Checkout"
+               asp-action="Index"
+               asp-route-returnUrl="/Checkout"
+               class="details-cart-btn">
+
+                Proceed To Checkout
+
+            </a>
+
+        </div>
+    }
+
+</section>

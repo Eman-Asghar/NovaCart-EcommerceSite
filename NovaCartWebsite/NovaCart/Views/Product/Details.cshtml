@@ -1,0 +1,253 @@
+﻿<section class="product-details-page">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- IMAGE -->
+
+            <div class="col-lg-6">
+
+                <div class="details-image">
+
+                    <img src="@ViewBag.Image">
+
+                </div>
+
+            </div>
+
+            <!-- CONTENT -->
+
+            <div class="col-lg-6">
+
+                <div class="details-content">
+
+                    <span class="product-badge">
+                        Top Seller Product
+                    </span>
+
+                    <h1>
+                        @ViewBag.Name
+                    </h1>
+
+                    <div class="details-price">
+
+                        @ViewBag.Price
+
+                        <span>
+                            PKR 6,999
+                        </span>
+
+                    </div>
+
+                    <p class="details-description">
+
+                        @ViewBag.Description
+
+                    </p>
+
+                    <!-- CLOTHING SIZES -->
+                    @if (ViewBag.Name == "Premium Hoodie"
+                    || ViewBag.Name == "Winter Jacket"
+                    || ViewBag.Name == "Oversized T-Shirt")
+                    {
+                        <div class="size-section">
+
+                            <h5>Select Size</h5>
+
+                            <div class="sizes">
+
+                                <button type="button" class="size-btn">S</button>
+                                <button type="button" class="size-btn">M</button>
+                                <button type="button" class="size-btn">L</button>
+                                <button type="button" class="size-btn">XL</button>
+
+                            </div>
+
+                        </div>
+                    }
+
+                    <!-- SHOES SIZES -->
+                    @if (ViewBag.Name == "Urban Sneakers")
+                    {
+                        <div class="size-section">
+
+                            <h5>Select Size</h5>
+
+                            <div class="sizes">
+
+                                <button type="button" class="size-btn">39</button>
+                                <button type="button" class="size-btn">40</button>
+                                <button type="button" class="size-btn">41</button>
+                                <button type="button" class="size-btn">42</button>
+
+                            </div>
+
+                        </div>
+                    }
+
+                    @if (ViewBag.Name == "Luxury Perfume")
+                    {
+
+                        <div class="size-section">
+
+                            <h5>Bottle Size</h5>
+
+                            <div class="sizes">
+
+                                <button>50ml</button>
+                                <button>100ml</button>
+
+                            </div>
+
+                        </div>
+
+                    }
+
+                    @if (ViewBag.Name == "Smart Watch")
+                    {
+
+                        <div class="size-section">
+
+                            <h5>Features</h5>
+
+                            <div class="sizes">
+
+                                <button>Bluetooth</button>
+                                <button>Fitness</button>
+
+                            </div>
+
+                        </div>
+
+                    }
+
+                    @if (ViewBag.Name == "Gaming Mouse")
+                    {
+
+                        <div class="size-section">
+
+                            <h5>Features</h5>
+
+                            <div class="sizes">
+
+                                <button>RGB</button>
+                                <button>Wireless</button>
+
+                            </div>
+
+                        </div>
+
+                    }
+
+                    @if (ViewBag.Name == "Bracelet")
+                    {
+
+                        <div class="size-section">
+
+                            <h5>Material</h5>
+
+                            <div class="sizes">
+
+                                <button>Silver</button>
+                                <button>Gold</button>
+
+                            </div>
+
+                        </div>
+
+                    }
+
+                    <!-- QUANTITY -->
+
+                    <div class="quantity-section">
+
+                        <h5>Quantity</h5>
+
+                        <input type="number"
+                               value="1"
+                               min="1">
+
+                    </div>
+                    <form asp-controller="Cart"
+                          asp-action="AddToCart"
+                          method="post">
+
+                        <input type="hidden"
+                               name="name"
+                               value="@ViewBag.Name" />
+
+                        <input type="hidden"
+                               name="image"
+                               value="@ViewBag.Image" />
+
+                        <input type="hidden"
+                               name="price"
+                               value="@ViewBag.Price" />
+
+                        <input type="hidden"
+                               name="size"
+                               id="selectedSize" />
+
+                        <button type="submit"
+                                class="details-cart-btn">
+
+                            <i class="bi bi-cart3"></i>
+
+                            Add To Cart
+
+                        </button>
+
+                    </form>
+
+                    <a class="wishlist-btn"
+                       asp-controller="Wishlist"
+                       asp-action="Add"
+                       asp-route-name="@ViewBag.Name"
+                       asp-route-image="@ViewBag.Image"
+                       asp-route-price="@ViewBag.Price">
+
+                        <i class="bi bi-heart"></i>
+
+                    </a>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const sizeButtons =
+                document.querySelectorAll(".size-btn");
+
+            const hiddenInput =
+                document.getElementById("selectedSize");
+
+            sizeButtons.forEach(button => {
+
+                button.addEventListener("click", function () {
+
+                    sizeButtons.forEach(btn =>
+                        btn.classList.remove("active"));
+
+                    this.classList.add("active");
+
+                    hiddenInput.value =
+                        this.innerText;
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</section>

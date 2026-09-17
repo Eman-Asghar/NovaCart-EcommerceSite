@@ -1,0 +1,200 @@
+﻿@model NovaCart.Models.CheckoutPageViewModel
+
+<section class="checkout-page">
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="checkout-header text-center">
+            <h1>Checkout</h1>
+            <p>Complete your order by filling details and selecting payment method</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- LEFT SIDE -->
+            <div class="col-lg-7">
+
+                <form asp-action="PlaceOrder" method="post">
+
+                    <div class="checkout-box">
+
+                        ```
+                        <h3>Billing Details</h3>
+
+                        <div asp-validation-summary="ModelOnly"
+                             class="text-danger mb-3">
+                        </div>
+
+                        <!-- NAME -->
+                        <label class="checkout-label">
+                            Full Name <span>*</span>
+                        </label>
+
+                        <input asp-for="Checkout.Name"
+                               class="checkout-input"
+                               placeholder="Enter your full name" />
+
+                        <span asp-validation-for="Checkout.Name"
+                              class="text-danger"></span>
+
+
+                        <!-- EMAIL -->
+                        <label class="checkout-label mt-3">
+                            Email Address <span>*</span>
+                        </label>
+
+                        <input asp-for="Checkout.Email"
+                               type="email"
+                               class="checkout-input"
+                               placeholder="example@gmail.com" />
+
+                        <span asp-validation-for="Checkout.Email"
+                              class="text-danger"></span>
+
+
+                        <!-- PHONE -->
+                        <label class="checkout-label mt-3">
+                            Phone Number <span>*</span>
+                        </label>
+
+                        <input asp-for="Checkout.Phone"
+                               type="tel"
+                               class="checkout-input"
+                               placeholder="03XXXXXXXXX" />
+
+                        <span asp-validation-for="Checkout.Phone"
+                              class="text-danger"></span>
+
+
+                        <!-- ADDRESS -->
+                        <label class="checkout-label mt-3">
+                            Shipping Address <span>*</span>
+                        </label>
+
+                        <input asp-for="Checkout.Address"
+                               class="checkout-input"
+                               placeholder="Enter complete address" />
+
+                        <span asp-validation-for="Checkout.Address"
+                              class="text-danger"></span>
+
+
+                        <!-- NOTES -->
+                        <label class="checkout-label mt-3">
+                            Order Notes
+                        </label>
+
+<textarea class="checkout-input checkout-textarea"
+          placeholder="Any special instructions (optional)">
+</textarea>
+                  
+
+                    </div>
+
+
+                    <!-- PAYMENT -->
+                    <div class="checkout-box mt-4">
+
+                        <h3>Payment Method</h3>
+
+                        <label class="payment-option">
+                            <input asp-for="Checkout.PaymentMethod"
+                                   type="radio"
+                                   value="COD" />
+                            Cash on Delivery
+                        </label>
+
+                        <label class="payment-option">
+                            <input asp-for="Checkout.PaymentMethod"
+                                   type="radio"
+                                   value="Bank" />
+                            Bank Transfer
+                        </label>
+
+                        <label class="payment-option">
+                            <input asp-for="Checkout.PaymentMethod"
+                                   type="radio"
+                                   value="Card" />
+                            Credit / Debit Card
+                        </label>
+
+                        <span asp-validation-for="Checkout.PaymentMethod"
+                              class="text-danger"></span>
+
+                    </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <div class="checkout-btn-wrapper">
+                        <button type="submit"
+                                class="details-cart-btn">
+                            Place Order
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-- RIGHT SIDE SUMMARY -->
+            <div class="col-lg-5">
+
+                <div class="checkout-summary">
+
+                    <h3>Order Summary</h3>
+
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <div class="summary-item">
+
+                            <img src="@item.Image"
+                                 class="summary-product-image"
+                                 alt="@item.Name" />
+
+                            <div class="summary-product-info">
+
+                                <h5>@item.Name</h5>
+
+                                <span>Qty: @item.Quantity</span>
+
+                                @if (!string.IsNullOrEmpty(item.Size))
+                                {
+                                    <p class="summary-size">
+                                        Size:
+                                        <strong>@item.Size</strong>
+                                    </p>
+                                }
+
+                            </div>
+
+                            <h6>
+                                PKR @(item.Price * item.Quantity)
+                            </h6>
+
+                        </div>
+                    }
+
+                    <div class="summary-total">
+
+                        <h4>Total</h4>
+
+                        <h4>
+                            PKR @Model.CartItems.Sum(x => x.Price * x.Quantity)
+                        </h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

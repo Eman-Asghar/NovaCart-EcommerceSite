@@ -1,0 +1,350 @@
+﻿<!-- HERO SECTION -->
+
+<div class="hero-section" data-aos="fade-in">
+
+    <div class="container hero-content">
+
+        <h1>
+            Discover Modern Lifestyle Products
+        </h1>
+
+        <p>
+            Shop premium fashion, electronics, beauty,
+            accessories and trending products all in one place.
+        </p>
+
+        <a asp-controller="Shop"
+           asp-action="Index"
+           class="hero-btn">
+            Explore Collection
+        </a>
+
+    </div>
+
+</div>
+
+<!-- CATEGORIES -->
+
+<section class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Popular Categories
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- CATEGORY 1 -->
+            <div class="col-md-3">
+                <a href="/shop/Index" class="text-decoration-none text-dark">
+                    <div class="category-card">
+                        <i class="bi bi-bag"></i>
+                        <h4>Fashion</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CATEGORY 2 -->
+            <div class="col-md-3">
+                <a href="/shop/Index" class="text-decoration-none text-dark">
+                    <div class="category-card">
+                        <i class="bi bi-smartwatch"></i>
+                        <h4>Electronics</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CATEGORY 3 -->
+            <div class="col-md-3">
+                <a href="/shop/Index" class="text-decoration-none text-dark">
+                    <div class="category-card">
+                        <i class="bi bi-stars"></i>
+                        <h4>Beauty</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- CATEGORY 4 -->
+            <div class="col-md-3">
+                <a href="/shop/Index" class="text-decoration-none text-dark">
+                    <div class="category-card">
+                        <i class="bi bi-handbag"></i>
+                        <h4>Accessories</h4>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- FEATURED PRODUCTS -->
+
+<section class="section pt-0">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Trending Products
+        </h2>
+
+        <div class="row g-4" data-aos="fade-up">
+            <!-- PRODUCT 1 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card">
+
+                    <img src="/images/products/hoodie1.jpg"
+                         class="product-img">
+
+                    <div class="product-body">
+
+                        <h4 class="product-title">
+                            Premium Hoodie
+                        </h4>
+
+                        <p>
+
+                            <span class="price">
+                                PKR 4,999
+                            </span>
+
+                            <span class="old-price">
+                                PKR 6,999
+                            </span>
+
+                        </p>
+
+                        <a class="cart-btn"
+                           asp-controller="Cart"
+                           asp-action="AddToCart"
+                           asp-route-name="Premium Hoodie"
+                           asp-route-image="/images/products/hoodie1.jpg"
+                           asp-route-price="4999">
+
+                            Add To Cart
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 2 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card">
+
+                    <img src="/images/products/shoes1.jpg"
+                         class="product-img">
+
+                    <div class="product-body">
+
+                        <h4 class="product-title">
+                            Urban Sneakers
+                        </h4>
+
+                        <p>
+
+                            <span class="price">
+                                PKR 8,499
+                            </span>
+
+                            <span class="old-price">
+                                PKR 10,999
+                            </span>
+
+                        </p>
+
+                        <a class="cart-btn"
+                           asp-controller="Cart"
+                           asp-action="AddToCart"
+                           asp-route-name="Urban Sneakers"
+                           asp-route-image="/images/products/shoes1.jpg"
+                           asp-route-price="8499">
+
+                            Add To Cart
+
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 3 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card">
+
+                    <img src="/images/products/watch1.jpg"
+                         class="product-img">
+
+                    <div class="product-body">
+
+                        <h4 class="product-title">
+                            Smart Watch
+                        </h4>
+
+                        <p>
+
+                            <span class="price">
+                                PKR 12,999
+                            </span>
+
+                            <span class="old-price">
+                                PKR 15,999
+                            </span>
+
+                        </p>
+
+                        <a class="cart-btn"
+                           asp-controller="Cart"
+                           asp-action="AddToCart"
+                           asp-route-name="Smart Watch"
+                           asp-route-image="/images/products/watch1.jpg"
+                           asp-route-price="12999">
+
+                            Add To Cart
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 4 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card">
+
+                    <img src="/images/products/bag1.jpg"
+                         class="product-img">
+
+                    <div class="product-body">
+
+                        <h4 class="product-title">
+                            Luxury Handbag
+                        </h4>
+
+                        <p>
+
+                            <span class="price">
+                                PKR 5,999
+                            </span>
+
+                            <span class="old-price">
+                                PKR 7,999
+                            </span>
+
+                        </p>
+                        <a class="cart-btn"
+                           asp-controller="Cart"
+                           asp-action="AddToCart"
+                           asp-route-name="Luxury Handbag"
+                           asp-route-image="/images/products/bag1.jpg"
+                           asp-route-price="5999">
+
+                            Add To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SALE SECTION -->
+
+<div class="container">
+
+    <div class="sale-banner" data-aos="zoom-in">
+
+        <div class="sale-content">
+
+            <h2>
+                Mega Sale 50% OFF
+            </h2>
+
+            <p>
+                Limited time offers on trending products.
+            </p>
+
+            <a href="#" class="hero-btn">
+                Shop Deals
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h3>NovaCart</h3>
+
+                <p>
+                    Pakistan's modern ecommerce shopping destination.
+                </p>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <h5>Quick Links</h5>
+
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Categories</a>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <h5>Follow Us</h5>
+
+                <a href="https://www.instagram.com/grafixx_zone?igsh=MTJvcWF4eGdvczZ2OA%3D%3D&utm_source=qr">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">TikTok</a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center">
+            © 2026 NovaCart. All Rights Reserved.
+        </p>
+
+    </div>
+
+</div>

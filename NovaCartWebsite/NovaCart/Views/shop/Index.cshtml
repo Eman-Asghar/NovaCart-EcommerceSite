@@ -1,0 +1,419 @@
+﻿<section class="shop-page">
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="shop-header">
+
+            <h1>Explore Our Collection</h1>
+
+            <p>
+                Discover trending fashion, accessories, electronics and premium lifestyle products.
+            </p>
+
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="row g-4">
+
+            <!-- PRODUCT 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Premium Hoodie"
+                       asp-route-image="/images/products/hoodie1.jpg"
+                       asp-route-price="4999"
+                       asp-route-description="Premium oversized hoodie with modern streetwear design and comfort.">
+                        <img src="/images/products/hoodie1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Premium Hoodie</h4>
+
+                        <div class="product-price">
+                            PKR 4,999 <span>PKR 6,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Premium Hoodie"
+                           asp-route-image="/images/products/hoodie1.jpg"
+                           asp-route-price="4999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Urban Sneakers"
+                       asp-route-image="/images/products/shoes1.jpg"
+                       asp-route-price="8499"
+                       asp-route-description="Stylish sneakers for everyday wear.">
+                        <img src="/images/products/shoes1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Urban Sneakers</h4>
+
+                        <div class="product-price">
+                            PKR 8,499 <span>PKR 10,999</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Urban Sneakers"
+                           asp-route-image="/images/products/shoes1.jpg"
+                           asp-route-price="8499">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Smart Watch"
+                       asp-route-image="/images/products/watch1.jpg"
+                       asp-route-price="12999"
+                       asp-route-description="Smart watch with fitness tracking.">
+                        <img src="/images/products/watch1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Smart Watch</h4>
+
+                        <div class="product-price">
+                            PKR 12,999 <span>PKR 15,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Smart Watch"
+                           asp-route-image="/images/products/watch1.jpg"
+                           asp-route-price="12999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Luxury Handbag"
+                       asp-route-image="/images/products/bag1.jpg"
+                       asp-route-price="5999"
+                       asp-route-description="Elegant luxury handbag.">
+                        <img src="/images/products/bag1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Luxury Handbag</h4>
+
+                        <div class="product-price">
+                            PKR 5,999 <span>PKR 8,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Luxury Handbag"
+                           asp-route-image="/images/products/bag1.jpg"
+                           asp-route-price="5999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Wireless Headphones"
+                       asp-route-image="/images/products/headphones1.jpg"
+                       asp-route-price="7999"
+                       asp-route-description="Premium sound headphones.">
+                        <img src="/images/products/headphones1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Wireless Headphones</h4>
+
+                        <div class="product-price">
+                            PKR 7,999 <span>PKR 9,999</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Wireless Headphones"
+                           asp-route-image="/images/products/headphones1.jpg"
+                           asp-route-price="7999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Luxury Perfume"
+                       asp-route-image="/images/products/perfume1.jpg"
+                       asp-route-price="6499"
+                       asp-route-description="Long lasting fragrance.">
+                        <img src="/images/products/perfume1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Luxury Perfume</h4>
+
+                        <div class="product-price">
+                            PKR 6,499 <span>PKR 8,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Luxury Perfume"
+                           asp-route-image="/images/products/perfume1.jpg"
+                           asp-route-price="6499">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 7 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Winter Jacket"
+                       asp-route-image="/images/products/jacket1.jpg"
+                       asp-route-price="9999"
+                       asp-route-description="Warm winter jacket.">
+                        <img src="/images/products/jacket1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Winter Jacket</h4>
+
+                        <div class="product-price">
+                            PKR 9,999 <span>PKR 12,999</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Winter Jacket"
+                           asp-route-image="/images/products/jacket1.jpg"
+                           asp-route-price="9999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 8 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Premium Sunglasses"
+                       asp-route-image="/images/products/glasses1.jpg"
+                       asp-route-price="2999"
+                       asp-route-description="UV protection sunglasses.">
+                        <img src="/images/products/glasses1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Premium Sunglasses</h4>
+
+                        <div class="product-price">
+                            PKR 2,999 <span>PKR 4,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Premium Sunglasses"
+                           asp-route-image="/images/products/glasses1.jpg"
+                           asp-route-price="2999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 9 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Oversized T-Shirt"
+                       asp-route-image="/images/products/tshirt1.jpg"
+                       asp-route-price="3499"
+                       asp-route-description="Trendy t-shirt.">
+                        <img src="/images/products/tshirt1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Oversized T-Shirt</h4>
+
+                        <div class="product-price">
+                            PKR 3,499 <span>PKR 5,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Oversized T-Shirt"
+                           asp-route-image="/images/products/tshirt1.jpg"
+                           asp-route-price="3499">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 10 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Gaming Mouse"
+                       asp-route-image="/images/products/mouse1.jpg"
+                       asp-route-price="3999"
+                       asp-route-description="RGB gaming mouse.">
+                        <img src="/images/products/mouse1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Gaming Mouse</h4>
+
+                        <div class="product-price">
+                            PKR 3,999 <span>PKR 5,999</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Gaming Mouse"
+                           asp-route-image="/images/products/mouse1.jpg"
+                           asp-route-price="3999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 11 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Makeup Kit"
+                       asp-route-image="/images/products/makeup1.jpg"
+                       asp-route-price="5499"
+                       asp-route-description="Beauty kit.">
+                        <img src="/images/products/makeup1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Makeup Kit</h4>
+
+                        <div class="product-price">
+                            PKR 5,499 <span>PKR 7,499</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Makeup Kit"
+                           asp-route-image="/images/products/makeup1.jpg"
+                           asp-route-price="5499">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT 12 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="shop-card">
+
+                    <a asp-controller="Product" asp-action="Details"
+                       asp-route-name="Luxury Bracelet"
+                       asp-route-image="/images/products/bracelet1.jpg"
+                       asp-route-price="4999"
+                       asp-route-description="Luxury bracelet.">
+                        <img src="/images/products/bracelet1.jpg">
+                    </a>
+
+                    <div class="shop-card-body">
+
+                        <h4>Luxury Bracelet</h4>
+
+                        <div class="product-price">
+                            PKR 4,999 <span>PKR 6,999</span>
+                        </div>
+
+                        <a class="shop-btn"
+                           asp-controller="Cart"
+                           asp-action="Add"
+                           asp-route-name="Luxury Bracelet"
+                           asp-route-image="/images/products/bracelet1.jpg"
+                           asp-route-price="4999">
+                            Add To Cart
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

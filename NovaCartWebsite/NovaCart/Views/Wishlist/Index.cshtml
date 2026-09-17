@@ -1,0 +1,80 @@
+﻿@model List<YourProject.Models.WishlistItem>
+
+<section class="cart-page">
+
+    <div class="container">
+
+        <div class="cart-header">
+
+            <h1>My Wishlist</h1>
+
+            <p>
+                Your favorite saved products.
+            </p>
+
+        </div>
+
+        @if (Model.Count == 0)
+        {
+            <div class="empty-cart">
+
+                <h3>Your wishlist is empty.</h3>
+
+            </div>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <div class="cart-item">
+
+                    <!-- IMAGE -->
+
+                    <div class="cart-image">
+
+                        <img src="@item.Image" />
+
+                    </div>
+
+                    <!-- INFO -->
+
+                    <div class="cart-info">
+
+                        <h3>@item.Name</h3>
+
+                        <h5>PKR @item.Price</h5>
+
+                    </div>
+
+                    <!-- REMOVE BUTTON -->
+
+                    <div class="wishlist-actions">
+
+                        <a asp-controller="Cart"
+                           asp-action="AddToCart"
+                           asp-route-name="@item.Name"
+                           asp-route-image="@item.Image"
+                           asp-route-price="@item.Price"
+                           class="details-cart-btn">
+
+                            Add To Cart
+
+                        </a>
+
+                        <a asp-action="Remove"
+                           asp-route-name="@item.Name"
+                           class="remove-btn">
+
+                            Remove
+
+                        </a>
+
+                    </div>
+
+                </div>
+            }
+        }
+
+    </div>
+
+</section>

@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|879ded22-f4e8-4bbc-b783-ac609d057041MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.OrderItems.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\wishlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\wishlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|a454fb2b-67db-40a9-b134-c796f13a461eMSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.Orders.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\checkoutpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\checkoutpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.OrderItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\models\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\models\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\data\\migrations\\20260529181044_addorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\data\\migrations\\20260529181044_addorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|c:\\users\\best laptop\\onedrive\\desktop\\web assignments\u002Bproject\\projectfile\\novacart\\novacart\\data\\migrations\\20260530191749_initialproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3F8020-C875-4DC5-AE3C-3D88833EB5E8}|NovaCart\\NovaCart.csproj|solutionrelative:novacart\\data\\migrations\\20260530191749_initialproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create dbo.OrderItems.sql",
+              "DocumentMoniker": "879ded22-f4e8-4bbc-b783-ac609d057041MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.OrderItems.sql",
+              "ToolTip": "879ded22-f4e8-4bbc-b783-ac609d057041MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.OrderItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-31T13:08:28.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T10:17:30.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NovaCart\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NovaCart\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAANwEAAAAAAAAAAAkwOoEAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-26T21:07:49.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAIAwwDgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T21:08:40.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T17:31:07.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Wishlist\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Wishlist\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Wishlist\\Index.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Wishlist\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwDsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T14:28:30.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\appsettings.json",
+              "RelativeDocumentMoniker": "NovaCart\\appsettings.json",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\appsettings.json",
+              "RelativeToolTip": "NovaCart\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-30T20:31:07.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create dbo.Orders.sql",
+              "DocumentMoniker": "a454fb2b-67db-40a9-b134-c796f13a461eMSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.Orders.sql",
+              "ToolTip": "a454fb2b-67db-40a9-b134-c796f13a461eMSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/Create dbo.Orders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-31T11:29:00.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T08:45:11.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAIwPwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T07:59:54.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T08:45:37.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:54:07.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA/wBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:58:21.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAIwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T16:58:01.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\shop\\Index.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\shop\\Index.cshtml",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAwwKIBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T22:31:33.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Order.cs",
+              "RelativeToolTip": "NovaCart\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:28:19.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "NovaCart\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:43:15.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "NovaCart\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T20:31:20.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckoutPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\CheckoutPageViewModel.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\CheckoutPageViewModel.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\CheckoutPageViewModel.cs",
+              "RelativeToolTip": "NovaCart\\Models\\CheckoutPageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T07:34:52.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260530191749_InitialProductTable.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\20260530191749_InitialProductTable.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Data\\Migrations\\20260530191749_InitialProductTable.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\20260530191749_InitialProductTable.cs",
+              "RelativeToolTip": "NovaCart\\Data\\Migrations\\20260530191749_InitialProductTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T19:17:49.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Checkoutcontroller.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\Checkoutcontroller.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\Checkoutcontroller.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\Checkoutcontroller.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\Checkoutcontroller.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv1oAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T16:56:57.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "NovaCart\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:04:28.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T19:12:31.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Program.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Program.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Program.cs",
+              "RelativeToolTip": "NovaCart\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:52:12.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "NovaCart\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T19:22:38.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "NovaCart\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "NovaCart\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-29T19:11:45.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "dbo.Orders.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.Orders.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-29T18:23:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260529181044_AddOrdersTable.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\20260529181044_AddOrdersTable.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Data\\Migrations\\20260529181044_AddOrdersTable.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Data\\Migrations\\20260529181044_AddOrdersTable.cs",
+              "RelativeToolTip": "NovaCart\\Data\\Migrations\\20260529181044_AddOrdersTable.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T18:10:45.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.OrderItems.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.OrderItems.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_NovaCart_bbd05673_467d_4652_aabb_41d129de32a6/True/SqlTable/dbo.OrderItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-29T18:23:14.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\OrderItem.cs",
+              "RelativeToolTip": "NovaCart\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:42:16.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "NovaCart\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "NovaCart\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T06:56:09.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Services\\WishlistService.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\Services\\WishlistService.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Services\\WishlistService.cs",
+              "RelativeToolTip": "NovaCart\\Models\\Services\\WishlistService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T14:19:56.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T14:22:05.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WishlistItem.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\WishlistItem.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\WishlistItem.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\WishlistItem.cs",
+              "RelativeToolTip": "NovaCart\\Models\\WishlistItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T14:18:55.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Models\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Models\\Services\\CartService.cs",
+              "RelativeToolTip": "NovaCart\\Models\\Services\\CartService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:51:24.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "NovaCart\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\BEST LAPTOP\\OneDrive\\Desktop\\Web Assignments\u002BProject\\ProjectFile\\NovaCart\\NovaCart\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "NovaCart\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T22:28:29.334Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
